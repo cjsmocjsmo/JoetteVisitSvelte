@@ -73,17 +73,19 @@
 
 	.column img {
 		margin-top: 8px;
+		border-radius: 15px;
 	}
 
-	@media screen and (max-width: 420px) {
+	
+
+	@media screen and (max-width: 500px) {
 		img {
-			width: 120px;
+			width: 180px;
 		}
 	}
-
-	@media screen and (max-width: 360px) {
+	@media screen and (max-width: 400px) {
 		img {
 			width: 100px;
 		}
-	}
+	} 
 </style>
