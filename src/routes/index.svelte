@@ -30,6 +30,9 @@
 	<title>Home</title>
 </svelte:head>
 
+<a href="https://frontpage-czi.pages.dev/" ><button>Back</button></a>
+
+
 <div class="column">
 	<a href="/img1zoom"><img src={img1thumb} alt="fuckit"></a>
 	<a href="/img2zoom"><img src={img2thumb} alt="fuckit"></a>
@@ -64,8 +67,19 @@
 	<a href="/img19zoom"><img src={img19thumb} alt="fuckit"></a>
 	<a href="/img20zoom"><img src={img20thumb} alt="fuckit"></a>
 </div>
+<a class="bottom" href="https://frontpage-czi.pages.dev/" ><button>Back</button></a>
 
 <style>
+
+	button {
+        width: 25%;
+		padding: 8px;
+		border-radius: 7px;
+		background-color: white;
+		font-size: 1.25em;
+		color: black;
+    }
+
 	.column {
 		flex: 25%;
 		padding: 0 4px;
