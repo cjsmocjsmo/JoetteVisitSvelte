@@ -1,13 +1,11 @@
 <script>
-    import img14 from '../lib/images/20210623_070413-2.jpg';
+    import img14 from '$lib/images/20210623_070413-2.webp';
 </script>
-
-
 
 <img src={img14} alt="fuckit">
 
-
 <style>
+
     img {
         border-radius: 5%;
         display: block;
@@ -15,9 +13,11 @@
         margin-right: auto;
         width: 70%;
     }
+
     @media screen and (max-width: 420px) {
 		img {
 			width: 100%;
 		}
 	}
+
 </style>
